@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+html{
+    font-size: 20px;
+}
+body{
+  display: flex;
+  flex-direction: column;
+    
+}
+
+header div{
+    background-color: black;
+    color:white;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 4px 60px 4px 90px;
+}
+.menu{
+    background-color: darkorange;
+    padding: 20px 60px;
+       
+  }
+.menu img{
+    height: 25px;
+}
+.menu nav ul li{
+    list-style:none; 
+    display: inline;
+   padding: 0px 10px;
+   
+}
+.menu nav ul li a{
+    text-decoration: none;
+   
+}
+.menu nav img{
+    height: 20px;
+}
+
+main .banner{
+    background: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 80vh;
+  
+   
+}
+main section{
+    padding-right: 50px;
+}
+main section h3{
+    background-color: white;
+}
+main section p{
+    text-align: center;
+    padding: 5px 0px;
+}
+main section button{
+    margin-left: 80px;
+    background-color: darkorange;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+main .destacados {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+main article{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+ 
+}
+main article p{
+   text-align: center;  
+}
+main h2{
+    padding: 50px 0px;
+    text-align: center;
+}
+form{
+    padding: 20px 0px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"]{
+    width:400px;
+    height: 50px;
+    display: flow-root;
+	padding:5px 5px;
+	border-radius:10px;
+	background-color:#3c2313;
+    color: white;
+    margin: 30px 480px;
+}
+button[type="reset"]{
+    margin-left: 560px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #8A8787;
+    color: whitesmoke;
+}
+button[type="submit"]{
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color:darkorange;
+    color:whitesmoke;
+}
+footer{
+    background-color: #3c2313;
+}
+footer .suscribirse{
+    background-color: darkorange;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+    
+}
+.suscribirse input{
+    background-color: white;
+    padding: 5px 50px;
+    border-radius: 10px;
+   justify-content: right;
+    margin-left: 550px;
+    margin-right: 20px;
+
+}
+.suscribirse button{
+    background-color: #3c2313;
+   
+}
+
+footer p{
+    color: white;
+    text-align: center;
+}
+footer section{
+    display: flow-root;
+    color: white;
+}
+.direccion{
+    border: solid 1px white;
+
+}

@@ -4,77 +4,114 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Proyecto Final</title>
 </head>
 <body>
-<header background-color="marron">
-  <span><p>Grandes ofertas en comederos</p>
-  <section align="right">
-    <select name="idiomas">
-        <option value="1" >Español</option>
-        <option value="2">Ingles</option>
-    </select>
-    <select name="plata">
-        <option value="1">ARG$</option>
-        <option value="2">U$$</option>
-     </select>
-     </section></span>
-    <hr>
-    </header>
-    <nav>
+<header>
+    <div>
+   
+           <p>Grandes ofertas en comederos</p>
+        
+          <section>
+             <select name="idiomas">
+                <option value="1" >Español</option>
+                <option value="2">Ingles</option>
+             </select>
+             <select name="plata">
+                <option value="1">ARG$</option>
+                <option value="2">U$$</option>
+              </select>
+            </section>
+          
+    </div>
+    <div class="menu">
         <img src="img/Logo.png" alt="Logo">
-        <ul>
-            <li><a href="#"></a>Categirias</li>
-            <li><a href="#"></a>Pets</li>
-            <li><a href="#"></a>Nosotros</li>
-            <li><a href="#"></a>Contactenos</li>
-        </ul><hr>
-    </nav>
+            <nav>
+               <ul>
+                   <li><img src="img/pawprint 1.png" alt="huella"><a href="#"></a>Categorias</li>
+                   <li><img src="img/pawprint 1.png" alt="huella"><a href="#"></a>Pets</li>
+                   <li><img src="img/pawprint 1.png" alt="huella"><a href="#"></a>Nosotros</li>
+                   <li><img src="img/pawprint 1.png" alt="huella"><a href="#"></a>Contactenos</li>
+                </ul>
+            </nav>
+    </div>
+</header>
 
 <main>
-<section align="center">
-    <img src="img/bowl-and-pet-daities-on-green-background 1.png">
-    <hr>
-</section>
-<section align="center">
-    <img src="img/pawprint 1.png">
-    <h1>Productos destacados</h1>
-  
-    <p>Comederos - Accesotios - Comida</p>
-    <span><img src="img/Churrasquito.png">
-          <img src="img/Comedero.png">
-          <img src="img/Huesito juguete.png">
-    </span>      
-     <hr>
-</section>
-<section align="center">
-    <p>CONTACTENOS</p>
-        <img src="img/Nombre y apellido.png"><br>
-        <img src="img/email.png"><br>
-        <img src="img/Telefono.png"><br>
-        <img src="img/Reset.png">
-        <img src="img/Enviar.png">
-        <hr>
-        
-</section>
+    <div class="banner">
+        <section>
+           <h3>¡Es un placer tenerte aqui!</h3>
+           <p>Comederos en descuento</p>
+           <button>Comederos</button>
+        </section>
+    </div>
+    <div class="destacados">
+      <img src="img/pawprint 1 (1).png" alt="huella">
+    </div> 
+        <article>
+            <div class="productos">
+                <img src="img/churrasquito.png" alt="churrasquito">
+                <p>Juguete Churrasquito</p><br>
+                <p>$150</p> 
+            </div>
+            <div class="productos">
+                <img src="img/Comedero.png" alt="comedero">
+                <p>Comedero para perros</p><br>
+                <p>$250</p>
+            </div>
+            <div class="productos">
+               <img src="img/Huesito.png" alt="huesitos">
+               <p>Juguete Huesito </p><br>
+               <p>$650</p>
+            </div>
+        </article>
+    </div> 
+    <h2>Contactenos</h2>  
+               <form action="" method="">
+                <label for="nombre"></label> 
+                <input type="text" id="nombre" placeholder="Nombre y Apellido"> 
+                <label for="email"></label>
+                <input type="email" id="email" placeholder="Email">
+                <label for="tel"></label>
+                <input type="tel" id="Telefono" placeholder="Telefono">
+                  <button type="reset">Resetear</button>
+                  <button type="submit">Enviar</button>
+                </form> 
 </main>
+
+
 <footer>
+    <div class="suscribirse">
+         <p><img src="img/Group.png" alt="Suscribirse"> Suscribite para mas novedades </p>
+                  
+                     <input type="email" id="email" placeholder="Email">           
+                     <button type="Submit">Suscribirse</button>           
+    </div>
     <section>
-   <span><p><img src="img/Group.png"> Suscribite para mas novedades                
-     <img src="img/Suscribirme input.png" align="right"></p></span>
-    <hr>
+    <div class="direccion">
+        <img src="img/Icono.png"alt="Direccion">
+        <h3>Localidad</h3><p>Calle- Provincia</p>
+    </div>
+    <div class="Telefono">
+        <img src="img/Icono (1).png" alt="Telefono">
+        <h3>Telefono</h3><p>Numero de telefono</p>
+    </div>
+    <div class="correo">
+       <img src="img/Icono (2).png" alt="Correo">
+       <h3>Correo Electronico</h3><p>Direccion de Correo</p>
+    </div>
+     <div class="logo">
+       <img src="img/Logo.png" alt="Logo">
+     </div>
     </section>
-<section>
-    <img src="img/Location.png"><br><img src="img/Logo.png" align="right">
-    <img src="img/Phone.png"><br>
-    <img src="img/Correo.png">
-    
  
 
-</section>
-<hr>
-<p align="center">Todods los derechos reservados Front End</p>
 
-</footer>    
+<hr>
+<p>Todos los derechos reservados Front End</p>
+
+</footer>  
+ 
 </body>
 </html>
